@@ -26,82 +26,85 @@ class Example
         //echo $this->data[5];
         foreach ($this->data as $item)
         {
-            echo $item;
+            echo $item .' ';
         }
 
 
-        $this->x = 100;
-       // $this->y = 20;
-       // $this->z = 30;
+        $this->x = 10;
+        $this->y = 20;
+        $this->z = 30;
 
-     /*   $sum = $this->x + $this->y;
-        echo "$sum";    //30
-
-        echo "<br />";
-        $subs = $this->x - $this->y;
-        echo "$subs";   //-10
-
-        echo "<br />";
-        $mul = $this->x * $this->y;
-        echo "$mul";    //200
-
-        echo "<br />";
-        $div = $this->x / $this->y;
-        echo "$div";    //0.5
-
-        echo "<br />";
-        $mod = $this->x % $this->y;
-        echo "$mod";    //10
-        */
-
-//        echo $this->x += $this->y;
-//        echo"<br />";
+//       $sum = $this->x + $this->y;
+//        echo "$sum";    //30
 //
-//        echo $this->x -= $this->y;
-//        echo"<br />";
-//
-//        echo $this->x *= $this->y;
-//        echo"<br />";
-//
-//        echo $this->x /= $this->y;
-//        echo"<br />";
-//
-//        echo $this->x %= $this->y;
-//        echo"<br />";
-//
-//        echo $this->x .= $this->y;
-//        echo"<br />";
-
-
-
-
-
-
-//        echo $this->x++; //10
 //        echo "<br />";
-//        echo $this->x; //11
+//        $subs = $this->x - $this->y;
+//        echo "$subs";   //-10
 //
-//        echo $this->x--; //10
+//        echo "<br />";
+//        $mul = $this->x * $this->y;
+//        echo "$mul";    //200
+//
+//        echo "<br />";
+//        $div = $this->x / $this->y;
+//        echo "$div";    //0.5
+//
+//        echo "<br />";
+//        $mod = $this->x % $this->y;
+//        echo "$mod";    //10
+
+
+//        echo $this->x += $this->y;  //30
+//        echo"<br />";
+//
+//        echo $this->x -= $this->y;  //10
+//        echo"<br />";
+//
+//        echo $this->x *= $this->y;  //200
+//        echo"<br />";
+//
+//        echo $this->x /= $this->y;  //10
+//        echo"<br />";
+//
+//        echo $this->x %= $this->y;  //10
+//        echo"<br />";
+//
+//        echo $this->x .= $this->y;  //1020
+//        echo"<br />";
+
+
+
+
+
+
+//        echo $this->x++;    //10
+//        echo "<br />";
+//        echo $this->x;      ///11
 //        echo "<br />";
 //
-//        echo ++$this->x; //10
-//        echo "<br />";
-//
-//        echo ++$this->x; //10
-//        echo "<br />";
+//        echo $this->x--;    //11
+//        echo '<br/>';
+//        echo ++$this->x;    //11
+//        echo '<br/>';
+//        echo $this->x++;    //11
+//        echo '<br/>';
+//        echo --$this->x;    //11
+//        echo '<br/>';
+//        echo ++$this->x;    //12
 
 
-//        echo $this->x === $this->y;
-//        echo ($this->x > $this->y) && ($this-> y > $this->z);
+//        echo $this->x === $this->y;                             //false
+//        echo "<br />...<br />";
+//        echo ($this->x > $this->y) && ($this-> y > $this->z);   //false
 //        echo "<br />...<br />";
 //
-//        echo ($this->x > $this->y) && ($this-> y < $this->z);
+//        echo ($this->x > $this->y) && ($this-> y < $this->z);   //false
 //        echo "<br />...<br />";
 //
-//        echo ($this->x < $this->y) && ($this-> y > $this->z);
+//        echo ($this->x < $this->y) && ($this-> y > $this->z);   //false
 //        echo "<br />...<br />";
 //
-//        echo ($this->x < $this->y) && ($this-> y < $this->z);
+//        echo ($this->x < $this->y) && ($this-> y < $this->z);   //true-1
 //        echo "<br />...<br />";
 
 //        if($this->x > 20){

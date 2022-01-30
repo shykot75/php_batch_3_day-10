@@ -7,5 +7,5 @@ $exam->index();
 
 
 echo "<br />";
-$exam->name="BITM";
-echo $exam->name;
+//$exam->name="BITM";
+//echo $exam->name;
